@@ -341,6 +341,19 @@ class IntegrationID(Enum):
         Token.USDE,
     )
 
+
+    # CONCRETE
+    CONCRETE_USDE_LP = (
+        "concrete_usde_lp",
+        "Concrete USDe LPT",
+        Token.USDE,
+    )
+    CONCRETE_SUSDE_LP = (
+        "concrete_susde_lp",
+        "Concrete sUSDe LPT",
+        Token.SUSDE,
+    )
+
     # Splice
     SPLICE_USDE_YT = ("splice_usde_yt", "Splice USDe YT", Token.USDE)
     SPLICE_USDE_LPT = ("splice_usde_lpt", "Splice USDe LPT", Token.USDE)
